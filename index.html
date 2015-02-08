@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Greg's Accessible Extruder Assembly Guide</title>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.3" />
+<meta name="presdate" content="January 2013" />
+<meta name="author" content="Free Beachler" />
+<meta name="company" content="Terawatt Industries" />
+<!-- meta extensions -->
+<meta name="subject" content="Terawatt MendelMax 1.5 for LM8UU Assembly Guide" />
+<meta name="creator" content="Free Beachler" />
+<meta name="contributor" content="Free Beachler" />
+<meta name="publisher" content="Longevity Software d.b.a. Terawatt Industries" />
+<!-- meta temporary -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="outline" />
+<meta name="controlVis" content="hidden" />
+<!-- configuration extensions -->
+<meta name="tranSitions" content="true" />
+<meta name="fadeDuration" content="350" />
+<meta name="incrDuration" content="225" />
+<!-- configuration autoplay extension -->
+<meta name="autoMatic" content="false" />
+<meta name="playLoop" content="false" />
+<meta name="playDelay" content="10" />
+<!-- configuration audio extension -->
+<meta name="audioSupport" content="false" />
+<meta name="audioVolume" content="100" />
+<meta name="audioError" content="false" />
+<!-- configuration audio debug -->
+<meta name="audioDebug" content="false" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/advanced_utf/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/advanced_utf/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/advanced_utf/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/advanced_utf/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- embedded styles -->
+<style type="text/css" media="all">
+.logo {margin: 0.2em 0 0 0.15em; padding: 0;}
+.clock {margin: 0.1em 0.2em; padding: 0; position: absolute; top: 0em; right: 0em;}
+img.bg-lg {display:block;}
+</style>
+<!-- S5 JS -->
+<script src="ui/advanced_utf/slides.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35373460-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header">
+<img class="scale logo" width="96" height="75" src="pix/logo.png" alt="S5" title="S5" />
+<object type="application/x-shockwave-flash" data="obj/flash/relog.swf" width="80" height="80" class="scale clock" classid="CLSID:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=6,0,0,0">
+<param name="movie" value="obj/flash/relog.swf" />
+<param name="wmode" value="transparent" />
+<param name="quality" value="high" />
+<param name="menu" value="true" />
+<param name="bgcolor" value="#000000" />
+</object>
+</div>
+<div id="footer">
+<h1>Greg's Accessible Extruder Assembly Guide</h1>
+<h2>Version 1.0</h2>
+</div>
+</div>
+
+<div class="presentation">
+
+<!-- object data="path/file.mp3" archive="volume:50,loop" type="audio/mp3" class="handout" declare="declare" width="0" height="0"></object -->
+
+<div class="slide">
+<h1>Greg's Accessible Extruder Assembly Guide</h1>
+<h2>Copyleft &copy; 2013 by Terawatt Industries.</h2>
+<img src="pix/tw_logo_0.1_500_462.png" alt="" width="500" height="262" />
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="pix/cclicense_88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Terawatt Industries' Greg's Accessible Extruder Assembly Guide</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+</div>
+
+<div class="slide">
+<h1>Introduction</h1>
+
+<p>This is a short guide that provides a reference for assembly of Greg's Accessible Extruder.</p>
+
+<h1>Terms and Conditions</h1>
+
+<p>This guide is intended for reference only.</p>
+
+<p>3D Printers are a fire hazard, a pinch hazard, a shock hazard, and a burn hazard.  Keep all flammable items and body parts away from the hotend while operating a 3D printer.  Do not leave a 3D Printer unattended while operating.</p>
+<p>The hotend is the thermoplastic device which melts plastic and is mounted onto the extruder.  The hotend can operate at temperatures near or above 480F (250C).  It is a fire hazard and can cause severe burns and scars.</p>
+<p>By proceeding to refer to this guide you agree to indemnify Terawatt Industries and its licensors, legally and wholly, for any failure of your 3D Printer including and not limited to its extruder and hotend; or accident caused by your 3D Printer; or any damage caused by misuse or accident of your 3D Printer not limited to you, your family, friends, estate, possessions, or their possessions; that may be caused by assembly, usage of the extruder, hotend, and the 3D printer that utilizes such parts.  You agree that you are building or repairing your extruder and it is your reponsibility to assemble the part, inspect it regularly and often, and prevent it from failing or causing an accident, fire, or injury.  If you do not agree to these terms and conditions, then do not proceed to use this manual as a reference.</p>
+<p>The extruder shown in this guide is based on Greg's Accessible Extruder which is a specific, design of extruder licensed under a Creative Commons license.  The extruder provides a mount for the hotend of a 3D Printer (and/or the hotend's assembly since it may have multiple parts).  It is your responsibility to closely inspect the extruder before every print and/or periodically, in addition to the hotend.</p>
+
+<div class="handout">
+
+</div>
+
+<div class="notes">
+
+</div>
+
+<!-- object data="path/file.mp3" archive="volume:100" type="audio/mp3" class="handout" declare="declare" width="0" height="0"></object -->
+</div>	<!-- /slide -->
+
+<div class="slide">
+<h1>Bill of Materials</h1>
+<p>Though it's not an official reference the Bill of Materials (BOM) for the Greg's Accessible Extruder is listed at <a href="http://store.terawattindustries.com/46-extruder-hardware-kit.html">http://store.terawattindustries.com/46-extruder-hardware-kit.html</a>.  This guide assumes you have the entire BOM already available for your assembly.  This guide is intended to be an assembly guide for Greg's Accessible Extruder that comes with some of Terawatt Industries' 3D Printers.  It's not intended to be used as a bill of materials.</p>
+
+<h1>Printed Parts</h1>
+<p>The STLs and SCADs used to manufacture this component can be downlaoded from <a href="http://terawatt-industries.github.com/mendelmax15-lm8uu/">http://terawatt-industries.github.com/mendelmax15-lm8uu/</a>.</p>
+<ol class="printedparts">
+<li><div class="image"><img src="pix/parts/snapshot03.png" alt="" width="600" height="394" /><p class="caption">Hinged Accessible Extruder - Qty. 1</p></div></li>
+<li><div class="image"><img src="pix/parts/snapshot01.png" alt="" width="600" height="394" /><p class="caption">Large Herringbone Gear - Qty. 1</p></div></li>
+<li><div class="image"><img src="pix/parts/snapshot10.png" alt="" width="600" height="394" /><p class="caption">Small Herringbone Gear - Qty. 1</p></div></li>
+</ol>
+
+<h1>Tools Needed</h1>
+<p>The extruder is designed to be assembled primarily with a hex-wrench, although this can depend on the type of vitamins you have.  To build a complete Terawatt Industries Greg's Accessible Extruder you need the following tools:</p>
+<ul>
+<li>2mm, 2.5mm, 3mm, 4mm hex wrenches</li>
+<li>13mm wrench</li>
+<li>Needle-nose pliers are very helpful</li>
+<li>Depending on the 2.5mm screws, you may need a screwdriver (2013 version of Terawatt extruder vitamins uses socket-cap screws, earlier version are phillips-head.</li>
+</ul>
+<div class="handout">
+
+</div>
+
+<div class="notes">
+
+</div>
+</div>	<!-- /slide -->
+
+<div class="slide">
+<h1>Assembly</h1>
+<h2>Greg's Accessible Extruder</h2>
+<h3>Where We're Going</h3>
+We're going to build this:
+<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---143.png" alt="" width="600" height="450" class="bg-lg" />
+<h3>BOM</h3>
+<ol>
+<li>Printed parts including:  extruder, hinged idler, spacer ring (optional), large gear, small gear.</li>
+<li>NEMA 17 motor.</li>
+<li>Terawatt Industries M8 Hobbed bolt - hobbed at 30mm from head.</li>
+<li>3pcs (or 4) 608 bearings.</li>
+<li>M8x25mm threaded rod.</li>
+<li>M8 washers - TW's vitamins include thick high-visibility washers.</li>
+<li>3pcs M3x10mm screws, lock washers, and std. washers for NEMA17.</li>
+<li>1pc. M3x30mm low-profile screw, M3 nut, and M3 fender washer for hinged idler.</li>
+<li>2pcs. M4x50mm screws, 2pcs. compression spring, and 4pcs M4 fender washers for hinged idler.</li>
+<li>2pcs. M4x20mm screws, washers, lock washer, and nuts for mount to x-carriage.</li>
+<li>2pcs. M2.5x25mm socket cap screws (you may M2.5x30mm phillips head screws, or M2.5 cheese-head screws - please see notes about these).<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---010.png" alt="" width="600" height="450" class="bg-lg" /></li>
+</ol>
+<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---005.png" alt="" width="600" height="450" class="bg-lg" />
+
+<h3>Greg's Accessible Extruder</h3>
+<p>Assembly of this component takes about an hour, maybe two, and can be done in one build 'session'.</p>
+
+<h4>Step 1.1:  Hinged Idler</h4>
+<ol>
+<li>Locate the hinged idler and de-burr the slot for the precision threaded rod.  This can be done with a knife, or often by using needle nose pliers to scqueeze the M8x25mm threaded rod into the slot before the 608 bearing is loaded.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---012.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Load the 608 bearing onto the M8x25mm threaded rod.</li>
+<li>Insert the threaded rod with 608 bearing into the hinged idler.  Again needle nose pliers can be used to squeeze the rod into the hinged idler.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---013.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Make sure the 608 bearing sticks out through the backside of the idler -- in other words the M8x25mm rod is fully seated.  The hinge won't work properly if it's not fully seated.<img src="pix/assembly/IMG_4279.png" alt="" width="600" height="450" class="bg-lg" /></li>
+</ol>
+
+<h4>Step 1.2:  Attach NEMA17 motor</h4>
+<ol>
+<li>De-burr the M3 slots for the NEMA17 motor using a hex wrench and/or knife.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---033.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Pre-load M3x10mm screws with washer and lock washers.  M3x12mm also works.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---034.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Attach the MEMA17 motor to the extruder with the pre-loaded screws.  Leave the screws a little loose so the motor can be adjusted. <img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---036.png" alt="" width="600" height="450" class="bg-lg" /><img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---040.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Leave the NEMA17 screws loose...</li>
+</ol>
+
+<h4>Step 1.3:  Attach the Small Herringbone Gear</h4>
+<ol>
+<li>Locate the small herringbone gear, M3x10mm screw, and M3 nut.</li>
+<li>De-burr the captive nut slot on the small gear.<img src="pix/assembly/IMG_4303.png" alt="" width="600" height="194" class="bg-lg" /></li>
+<li>Insert the M3 nut into the small gear's captive nut slot.  If the fit is tight it helps to use a hex wrench to seat the nut into slot.<img src="pix/assembly/IMG_4305.png" alt="" width="600" height="450" class="bg-lg" /><img src="pix/assembly/IMG_4306.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Insert an M3x10mm screw into the set-screw hole, and screw into the captive nut you just inserted.  Do not screw all the way - allow room the for the NEMA17 motor shaft.<img src="pix/assembly/IMG_4308.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Attach the gear to the NEMA17 motor.  Leave room for the set-screw.<img src="pix/assembly/IMG_4311.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Tighten the set screw.  Otherwise, you'll wonder why your extruder doesn't work when you hear the motor spinning.</li>
+</ol>
+
+<h4>Step 1.4:  Attach the Large Herringbone Gear</h4>
+<ol>
+<li>De-burr the space for the M8 hobbed bolt and attach a 608 bearing.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---094.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Locate the M8 hobbed bolt; herringbone gear; and M8 washers.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---030.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Insert the M8 hobbed bolt into the large gear.  You may need to de-burr the large gear's hex-head - usually this part is best when the M8 hex head is a tight-fit, so it doesn't have backlash.  Assembly may require a little force to seat fully.  It's OK to use a mallet or hammering force but we always recommend care in such situations.  Do not use heat as this will likely cause misalignment!<img src="pix/assembly/IMG_4329.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Stack M8 washers onto the hobbed bolt.  These will be used as spacers to align the hobbed area with the 3mm filament hole in the extruder.  The actual number of washers you need may be variable, but with Terawatt's parts 2 pcs. high-visibility M8 washers work well.</li>
+<li>Insert the gear into the extruder.  The small gear and large gear should collide.  Thus, the easiest way to install the large gear is to back the M8 hobbed bolt off the gear partially, about halfway or more.  This allows enough wiggle to install the large gear and line it up with the small gear.</li>
+<li>When the gears are aligned, push the M8 hobbed bolt back into the large gear, all the way through the extruder.</li>
+<li>With the correct number of M8 washers both are true:  the hobbed area is well-aligned with the filament hole in the extruder; the large and small gears are aligned and the bolt is straight.  Note the small gear can be adjusted to align with the big one by loosening the set screw and pushing/pulling the small gear on the motor shaft.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---097.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>If the alignment is not proper (either assertions above are false) then adjust the number of M8 washers.  Do this by pushing the M8 hobbed bolt back out, then separate the large and small gears, and finish removing the large gear.  Then add/remove M8 washers and repeat the above steps.</li>
+</ol>
+
+<h4>Step 1.5:  Finish Large Gear Installation</h4>
+<ol>
+<li>Ensure the alignment of the M8 hobbed bolt is proper.  Attach a 608 bearing to the M8 hobbed bolt on the side opposite the large gear.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---103.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Follow the 608 bearing with a std. M8 washer - 608s need these washers to spin freely.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---104.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Follow with a number of M8 washers and a M8 nylock nut.  Optionally you can use a M8 lock washer and M8 nut, but even with a lock washer a regular M8 nut will slip due to vibration.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---106.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Tighten the assembly by holding the large gear and using a 13mm wrench on the nylock nut.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---112.png" alt="" width="600" height="450" class="bg-lg" /></li>
+</ol>
+
+<h4>Step 1.6:  Prepare Extruder for Hotend</h4>
+<ol>
+<li>It's easy to strip these long M2.5 screws so take heed.</li>
+<li>Thoroughly de-burr the M2.5 screw holes for the j-head hotend.  These are self-threading holes so it's best to use a 2mm hex wrench.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---117.png" alt="" width="600" height="450" /></li>
+<li>Insert M2.5 screws - screw all the way into the holes to complete the de-burring process.  Then back out.  If the screw starts to strip don't push it any further, reverse direction immediately.</li>
+<li>NOTE:  if you have phillips-head screws it's very difficult to avoid stripping - we started including extra phillips heads for this.  Socket cap screws are much more manageable and we've revised our vitamins with this hardware.</li>
+</ol>
+
+<h4>Step 1.7:  Attach Hinged Idler</h4>
+<ol>
+<li>De-burr the M3 screw hole for mounting the hinged idler with a hex wrench.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---023.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Insert an M3 nut into the captive slot on the inside arm of the hinged idler.</li>
+<li>Attach the hinged idler to the extruder.  Ensure the M3 nut you just inserted stays seated.</li>
+<li>Spin the large gear around to gain access to the screw hole for the idler.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---122.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Use an M3x30mm low-profile socket-cap screw with M3 fender washer to complete the assembly.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---125.png" alt="" width="600" height="450" class="bg-lg" /><img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---121.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Insert M4 nuts into the captive nut slots at the top of the extruder, where the hinged idler meets when closed.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---014.png" alt="" width="600" height="450" class="bg-lg" /><img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---016.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Pre-load each M4x50mm screw with one (1) M4 fender washer, one compression spring, and another M4 fender washer.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---129.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Insert the M4x50mm screws with springs into the M4 nuts you inserted above.  Only tighten to so that 1-2 threads of the screw are exposed.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---133.png" alt="" width="600" height="450" class="bg-lg" /></li>
+<li>Lift the M4x50mm screws to close the hinged idler.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---137.png" alt="" width="600" height="450" class="bg-lg" /></li>
+</ol>
+
+<h4>Step 1.8:  Attach M4 Mounting Screws (pre-assemble)</h4>
+<ol>
+<li>We don't need to attach these now, but everything's easy-to-access.  We can de-burr the M4 captive nut slots and the assembly will be ready-to-go.</li>
+<li>Insert an M4 nut into the captive nut holes on the extruder's base.</li>
+<li>Insert an M4x20mm screw with lock washer and M4 std. washer into each mounting hole.</li>
+<li>Tighten the screw to seat the M4 nut into the captive slot.  Finish both screws. <img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---140.png" alt="" width="600" height="450" class="bg-lg" /></li>
+</ol>
+
+<h4>Step 1.9:  Wrap-Up</h4>
+<ol>
+<li>Spin the large gear and visually inspect the meshing of large+small gear and overall motion of the motor from multiple viewing angles.  The gears should spin smoothly.  Indeed the gears will have to wear-in together but if there is significant sticking then loosen the M3 screws on the motor and adjust.</li>
+<li>Make sure the M3x10mm screws for NEMA17 motor are tight.</li>
+<li>Now you have something to print 3D objects with!  Pro-tip:  printing a backup extruder set is a good idea since the extruder and hotend are the hardest-working parts of a 3D printer.<img src="pix/assembly/AccessibleExtruder-BuildGuide-0.1---143.png" alt="" width="600" height="450" class="bg-lg" /></li>
+</ol>
+
+</div>	<!-- /slide -->
+
+</div>	<!-- /presentation -->
+
+</body>
+</html>
